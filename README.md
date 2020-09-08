@@ -1,4 +1,5 @@
-this is a client server RMI chat room, it allows communicating between many clients by dint of a central server. 
-this latter manges coming connections, stores temporarily list of identified, indexed messages.Exchanging messages
-is made by checking periodically for stored messages in the server. Acceding to the room requires an identification step:
-actually there is just an Access file of one table that stores users nicknames and their related passwords.
+This application is a client-server RMI chat room. 
+1) The app allows to communicate between many clients by meant of the central server. 
+2) The server handels the next tasks: a) managing the coming connections, b) storing temporarily list of identified, indexed messages.
+3) The messages exchanged between different clients are checked periodically from the stored messages list saved in the server. 
+4) Acceding to the room requires an identification step: Actually, there is just an Access file of one table with users credential information ( users' nicknames and their related passwords).
